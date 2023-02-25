@@ -1,0 +1,70 @@
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+/* ESTILOS AL BODY */
+body{
+    font-family: 'Ubuntu', sans-serif;
+    color: #ffffff;
+}
+
+/* HEADER */
+.header{
+    display: inline;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #ffffff;
+    height: 150px;
+    position: sticky;
+}
+
+.titulo{
+    color: black;
+    text-decoration: none;
+    font-size: 2.5rem;
+}
+
+.bio{
+  padding-top: 20px;
+  padding-bottom: 8px;
+  background-color: #EFD40A;
+  font-size: 20 black
+  ;
+}
+
+.obra{
+    margin-top: 300px;
+    margin-bottom: 300px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3fbbc0;
+}
+
+.museo{
+    margin-top: 300px;
+    margin-bottom: 300px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3fbbc0;
+}
+
+/* FORMULARIO */
+.formulario{
+      color: black;
+      font-size: 20px;
+      letter-spacing: 2px;
+      background-color: #EFD40A;
+      border: 2px solid #EFD40A;
+}
+
+/* FOOTER */
+
+footer {
+    height: 100px;
+    width: 100%;
+    background-color: #ffffff;
+    border-top: #444444 2px solid;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
