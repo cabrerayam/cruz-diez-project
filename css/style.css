@@ -7,6 +7,10 @@ body{
     color: #ffffff;
 }
 
+.logo{
+    width: 150px;
+}
+
 /* HEADER */
 .header{
     display: inline;
