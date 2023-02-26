@@ -1,0 +1,1130 @@
+
+
+// function openPage(pageName, elmnt, color) {
+//   // Hide all elements with class="tabcontent" by default */
+//   var i, tabcontent, tablinks;
+//   tabcontent = document.getElementsByClassName("tabcontent");
+//   for (i = 0; i < tabcontent.length; i++) {
+//     tabcontent[i].style.display = "none";
+//   }
+
+//   // Remove the background color of all tablinks/buttons
+//   tablinks = document.getElementsByClassName("oneCricle");
+//   for (i = 0; i < tablinks.length; i++) {
+//     tablinks[i].style.backgroundImage = "";
+//   }
+  
+
+
+//   // Show the specific tab content
+//   document.getElementById(pageName).style.display = "block";
+
+//   // Add the specific color to the button used to open the tab content
+//   colorChange1 = document.querySelector('#circle1')
+//   colorChange2 = document.querySelector('#circle2')
+//   colorChange3 = document.querySelector('#circle3')
+//   colorChange4 = document.querySelector('#circle4')
+  
+  
+//   if(pageName == "Home") {
+//       circle1.classList.toggle("selected");
+//       circle2.classList.remove("selected")
+//     circle3.classList.remove("selected")
+//     circle4.classList.remove("selected")
+//   } else if (pageName == "New")
+//   circle2.classList.toggle("selected");
+//      circle3.classList.remove("selected")
+//     circle4.classList.remove("selected")
+//     circle1.classList.remove("selected")
+// }
+
+// Get the element with id="defaultOpen" and click on it
+// document.getElementById("circle1").click();
+
+function myFunction1(buttonName) {
+    const form = document.querySelectorAll('form')
+    
+    if(buttonName == 'button1') {
+         form[1].parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.style.display = "block";
+        form[2].parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.style.display = "none"
+        form[3].parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.style.display = "none"
+        form[4].parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.style.display = "none"
+        form[5].parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.style.display = "none"
+        form[6].parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.style.display = "none"
+        form[7].parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.style.display = "none"
+    } else if(buttonName == 'button2') {
+         form[1].parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.style.display = "none";
+        form[2].parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.style.display = "block"
+        form[3].parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.style.display = "none"
+        form[4].parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.style.display = "none"
+        form[5].parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.style.display = "none"
+        form[6].parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.style.display = "none"
+        form[7].parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.style.display = "none"
+    } else if(buttonName == 'button3') {
+        form[1].parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.style.display = "none";
+        form[2].parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.style.display = "none"
+        form[3].parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.style.display = "block"
+        form[4].parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.style.display = "none"
+        form[5].parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.style.display = "none"
+        form[6].parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.style.display = "none"
+        form[7].parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.style.display = "none"
+    } else if(buttonName == 'button4') {
+        form[1].parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.style.display = "none";
+        form[2].parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.style.display = "none"
+        form[3].parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.style.display = "none"
+        form[4].parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.style.display = "block"
+        form[5].parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.style.display = "none"
+        form[6].parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.style.display = "none"
+        form[7].parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.style.display = "none"
+    } else if(buttonName == 'button5') {
+        form[1].parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.style.display = "none";
+        form[2].parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.style.display = "none"
+        form[3].parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.style.display = "none"
+        form[4].parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.style.display = "none"
+        form[5].parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.style.display = "block"
+        form[6].parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.style.display = "none"
+        form[7].parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.style.display = "none"
+    } else if(buttonName == 'button6') {
+        form[1].parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.style.display = "none";
+        form[2].parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.style.display = "none"
+        form[3].parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.style.display = "none"
+        form[4].parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.style.display = "none"
+        form[5].parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.style.display = "none"
+        form[6].parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.style.display = "block"
+        form[7].parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.style.display = "none"
+    } else if(buttonName == 'button7') {
+        form[1].parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.style.display = "none";
+        form[2].parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.style.display = "none"
+        form[3].parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.style.display = "none"
+        form[4].parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.style.display = "none"
+        form[5].parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.style.display = "none"
+        form[6].parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.style.display = "none"
+        form[7].parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.style.display = "block"
+    }
+}
+
+ let banner1 = document.querySelector('.banner1')
+    let banner2 = document.querySelector('.banner2')
+    let banner3 = document.querySelector('.banner3')
+    let banner4 = document.querySelector('.banner4')
+    
+    if(banner1 || banner2 || banner3 || banner4) {
+        banner1.style.cursor = "pointer"
+    banner1.onclick = function () {
+        window.location.replace('/timeline');
+    }
+    banner2.style.cursor = "pointer"
+     banner2.onclick = function () {
+        window.location.replace('/works/monumental-artworks/');
+    }
+    banner3.style.cursor = "pointer"
+     banner3.onclick = function () {
+        window.location.replace('/events/chromosaturation-at-pamm/');
+    }
+    banner4.style.cursor = "pointer"
+     banner4.onclick = function () {
+        window.location.replace('/events/past/paris-plus-by-art-basel/');
+    }
+    }
+    
+   
+    
+window.onload = (e) => {
+    
+    
+   
+    
+    let contact = document.querySelector('.cta-links')
+    let link = window.location.href
+    
+    document.querySelector('.language-selector').style.display = "block"
+     let logoLink = document.getElementById('logo')
+     let logoLink2 = logoLink.querySelector('a')
+     let logospan = logoLink2.querySelector('span')
+     logospan.innerHTML = "cruz-diez"
+     logoLink2.href = "/"
+     logoLink2.title = "Cruz-Diez"
+  
+    if(link.toString().startsWith('https://cruz-diez.com/fr/') || link.toString().startsWith('https://cruz-diez.com/es/')) {
+        window.location.replace('https://cruz-diez.com/');
+
+
+        window.location.href = "https://cruz-diez.com/";
+
+
+        window.location = "https://cruz-diez.com/";
+    }
+    
+    if(link.toString().includes("events/")) {
+        let test = document.querySelector('.breadcrumbsTemplate > .component-inner > .container > div > .umb-grid > .grid-section > div > .container > .row > .col-md-4 > div > p > a:last-child')
+        test.text = "Current";
+        test.href="/events/"
+    }
+    if(link.toString().includes("events/upcoming/")) {
+        let test = document.querySelector('.breadcrumbsTemplate > .component-inner > .container > div > .umb-grid > .grid-section > div > .container > .row > .col-md-4 > div > p > a:last-child')
+        test.text = "Upcoming";
+        test.href= "/events/upcoming"
+    }
+    if(link.toString().includes("events/past/")) {
+        let test = document.querySelector('.breadcrumbsTemplate > .component-inner > .container > div > .umb-grid > .grid-section > div > .container > .row > .col-md-4 > div > p > a:last-child')
+        test.text = "Past";
+        test.href= "/events/past"
+    }
+    
+     if(link.toString().includes("contact")) {
+         let tick = document.querySelectorAll('.checkbox > label')
+         tick[0].innerHTML = '<input data-val="true" data-val-required="The NewsletterSignup field is required." id="NewsletterSignup" name="NewsletterSignup" type="checkbox" value="true">I agree to receive news about Carlos Cruz-Diez in my mailbox'
+         tick[1].innerHTML = '<input data-val="true" data-val-required="The NewsletterSignup field is required." id="NewsletterSignup" name="NewsletterSignup" type="checkbox" value="true">I agree to receive news about Carlos Cruz-Diez in my mailbox'
+         tick[2].innerHTML = '<input data-val="true" data-val-required="The NewsletterSignup field is required." id="NewsletterSignup" name="NewsletterSignup" type="checkbox" value="true">I agree to receive news about Carlos Cruz-Diez in my mailbox'
+         tick[3].innerHTML = '<input data-val="true" data-val-required="The NewsletterSignup field is required." id="NewsletterSignup" name="NewsletterSignup" type="checkbox" value="true">I agree to receive news about Carlos Cruz-Diez in my mailbox'
+         tick[4].innerHTML = '<input data-val="true" data-val-required="The NewsletterSignup field is required." id="NewsletterSignup" name="NewsletterSignup" type="checkbox" value="true">I agree to receive news about Carlos Cruz-Diez in my mailbox'
+         tick[5].innerHTML = '<input data-val="true" data-val-required="The NewsletterSignup field is required." id="NewsletterSignup" name="NewsletterSignup" type="checkbox" value="true">I agree to receive news about Carlos Cruz-Diez in my mailbox'
+         tick[6].innerHTML = '<input data-val="true" data-val-required="The NewsletterSignup field is required." id="NewsletterSignup" name="NewsletterSignup" type="checkbox" value="true">I agree to receive news about Carlos Cruz-Diez in my mailbox'
+      
+
+     }
+     
+  
+   
+    if(link.toString().includes("tags")) {
+        let tagged = document.querySelector("section:last-child")
+        tagged.classList.add("eventsContainer2")
+    }
+    
+    
+     if(link.toString().includes("contact")) {
+         
+          const form = document.querySelectorAll('form')
+         form[1].parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.style.display = "none";
+        form[2].parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.style.display = "none"
+        form[3].parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.style.display = "none"
+        form[4].parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.style.display = "none"
+        form[5].parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.style.display = "none"
+        form[6].parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.style.display = "none"
+        form[7].parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.style.display = "block"
+    }
+      
+    
+     if(link.toString().includes("resources")) {
+         const circle1 = document.querySelector("#circle1")
+const circle2 = document.querySelector("#circle2")
+const circle3 = document.querySelector("#circle3")
+const circle4 = document.querySelector("#circle4")
+const selectedContent = document.querySelector("#selectedContent")
+// const alpha = Array.from(Array(26)).map((e, i) => i + 65);
+const letters = document.getElementsByClassName('letter');
+const letters2 = document.getElementsByClassName('letter2');
+const letters3 = document.getElementsByClassName('letter3');
+const contents = document.getElementsByClassName('letterContent');
+for (let letter of letters) {
+    console.log(letter);
+     letter.addEventListener("click", function(i) {
+        
+    const idString = "content-" + letter.innerHTML;
+    console.log(idString)
+     const contentElement = document.getElementById(idString)
+     for (let content of contents) {
+         console.log("Hello", {content})
+         content.classList.remove("visible");
+         
+     }
+     contentElement.classList.add("visible");
+        
+    for (let letter of letters) {
+
+         letter.classList.remove("boldAplhabet");
+         
+     }    
+        
+      letter.classList.add("boldAplhabet");
+    console.log("you clicked region number " + contentElement);
+  })
+}
+// Second splitter
+for (let letter2 of letters2) {
+    console.log(letter2);
+     letter2.addEventListener("click", function(i) {
+        
+    const idString = "content2-" + letter2.innerHTML;
+    console.log(idString)
+     const contentElement = document.getElementById(idString)
+     for (let content of contents) {
+         console.log("Hello", {content})
+         content.classList.remove("visible");
+         
+     }
+     contentElement.classList.add("visible");
+        
+    for (let letter2 of letters2) {
+
+         letter2.classList.remove("boldAplhabet");
+         
+     }    
+        
+      letter2.classList.add("boldAplhabet");
+    console.log("you clicked region number " + contentElement);
+  })
+}
+// Third splitter
+for (let letter3 of letters3) {
+    console.log(letter3);
+     letter3.addEventListener("click", function(i) {
+        
+    const idString = "content3-" + letter3.innerHTML;
+    console.log(idString)
+     const contentElement = document.getElementById(idString)
+     for (let content of contents) {
+         console.log("Hello", {content})
+         content.classList.remove("visible");
+         
+     }
+     contentElement.classList.add("visible");
+        
+    for (let letter3 of letters3) {
+
+         letter3.classList.remove("boldAplhabet");
+         
+     }    
+        
+      letter3.classList.add("boldAplhabet");
+    console.log("you clicked region number " + contentElement);
+  })
+}
+// Cities
+
+// A
+const citiesA = document.getElementsByClassName('cityA');
+const contentsCity = document.getElementsByClassName('cityContent');
+
+for (let cityA of citiesA) {
+    console.log(cityA);
+     cityA.addEventListener("click", function(i) {
+        
+    const idString = "content-" + cityA.innerHTML;
+    console.log(idString)
+     const contentElement = document.getElementById(idString)
+     for (let contentCity of contentsCity) {
+         console.log("Hello", {contentCity})
+         contentCity.classList.remove("visible");
+         
+     }
+     contentElement.classList.add("visible");
+        
+    for (let cityA of citiesA) {
+
+         cityA.classList.remove("boldAplhabet");
+         
+     }    
+        
+      cityA.classList.add("boldAplhabet");
+    console.log("you clicked region number " + contentElement);
+  })
+}
+
+// B
+const citiesB = document.getElementsByClassName('cityB');
+
+for (let cityB of citiesB) {
+    console.log(cityB);
+     cityB.addEventListener("click", function(i) {
+        
+    const idString = "content-" + cityB.innerHTML;
+    console.log(idString)
+     const contentElement = document.getElementById(idString)
+     for (let contentCity of contentsCity) {
+         console.log("Hello", {contentCity})
+         contentCity.classList.remove("visible");
+         
+     }
+     contentElement.classList.add("visible");
+        
+    for (let cityB of citiesB) {
+
+         cityB.classList.remove("boldAplhabet");
+         
+     }    
+        
+      cityB.classList.add("boldAplhabet");
+    console.log("you clicked region number " + contentElement);
+  })
+}
+
+// C
+const citiesC = document.getElementsByClassName('cityC');
+
+for (let cityC of citiesC) {
+    console.log(cityC);
+     cityC.addEventListener("click", function(i) {
+        
+    const idString = "content-" + cityC.innerHTML;
+    console.log(idString)
+     const contentElement = document.getElementById(idString)
+     for (let contentCity of contentsCity) {
+         console.log("Hello", {contentCity})
+         contentCity.classList.remove("visible");
+         
+     }
+     contentElement.classList.add("visible");
+        
+    for (let cityC of citiesC) {
+
+         cityC.classList.remove("boldAplhabet");
+         
+     }    
+        
+      cityC.classList.add("boldAplhabet");
+    console.log("you clicked region number " + contentElement);
+  })
+}
+
+// D
+
+const citiesD = document.getElementsByClassName('cityD');
+
+for (let cityD of citiesD) {
+    console.log(cityD);
+     cityD.addEventListener("click", function(i) {
+        
+    const idString = "content-" + cityD.innerHTML;
+    console.log(idString)
+     const contentElement = document.getElementById(idString)
+     for (let contentCity of contentsCity) {
+         console.log("Hello", {contentCity})
+         contentCity.classList.remove("visible");
+         
+     }
+     contentElement.classList.add("visible");
+        
+    for (let cityD of citiesD) {
+
+         cityD.classList.remove("boldAplhabet");
+         
+     }    
+        
+      cityD.classList.add("boldAplhabet");
+    console.log("you clicked region number " + contentElement);
+  })
+}
+
+// E
+
+const citiesE = document.getElementsByClassName('cityE');
+
+for (let cityE of citiesE) {
+    console.log(cityE);
+     cityE.addEventListener("click", function(i) {
+        
+    const idString = "content-" + cityE.innerHTML;
+    console.log(idString)
+     const contentElement = document.getElementById(idString)
+     for (let contentCity of contentsCity) {
+         console.log("Hello", {contentCity})
+         contentCity.classList.remove("visible");
+         
+     }
+     contentElement.classList.add("visible");
+        
+    for (let cityE of citiesE) {
+
+         cityE.classList.remove("boldAplhabet");
+         
+     }    
+        
+      cityE.classList.add("boldAplhabet");
+    console.log("you clicked region number " + contentElement);
+  })
+}
+
+// F
+
+const citiesF = document.getElementsByClassName('cityF');
+
+for (let cityF of citiesF) {
+    console.log(cityF);
+     cityF.addEventListener("click", function(i) {
+        
+    const idString = "content-" + cityF.innerHTML;
+    console.log(idString)
+     const contentElement = document.getElementById(idString)
+     for (let contentCity of contentsCity) {
+         console.log("Hello", {contentCity})
+         contentCity.classList.remove("visible");
+         
+     }
+     contentElement.classList.add("visible");
+        
+    for (let cityF of citiesF) {
+
+         cityF.classList.remove("boldAplhabet");
+         
+     }    
+        
+      cityF.classList.add("boldAplhabet");
+    console.log("you clicked region number " + contentElement);
+  })
+}
+
+// G
+
+const citiesG = document.getElementsByClassName('cityG');
+
+for (let cityG of citiesG) {
+    console.log(cityG);
+     cityG.addEventListener("click", function(i) {
+        
+    const idString = "content-" + cityG.innerHTML;
+    console.log(idString)
+     const contentElement = document.getElementById(idString)
+     for (let contentCity of contentsCity) {
+         console.log("Hello", {contentCity})
+         contentCity.classList.remove("visible");
+         
+     }
+     contentElement.classList.add("visible");
+        
+    for (let cityG of citiesG) {
+
+         cityG.classList.remove("boldAplhabet");
+         
+     }    
+        
+      cityG.classList.add("boldAplhabet");
+    console.log("you clicked region number " + contentElement);
+  })
+}
+
+// H
+
+const citiesH = document.getElementsByClassName('cityH');
+
+for (let cityH of citiesH) {
+    console.log(cityH);
+     cityH.addEventListener("click", function(i) {
+        
+    const idString = "content-" + cityH.innerHTML;
+    console.log(idString)
+     const contentElement = document.getElementById(idString)
+     for (let contentCity of contentsCity) {
+         console.log("Hello", {contentCity})
+         contentCity.classList.remove("visible");
+         
+     }
+     contentElement.classList.add("visible");
+        
+    for (let cityH of citiesH) {
+
+         cityH.classList.remove("boldAplhabet");
+         
+     }    
+        
+      cityH.classList.add("boldAplhabet");
+    console.log("you clicked region number " + contentElement);
+  })
+}
+
+// I
+
+const citiesI = document.getElementsByClassName('cityI');
+
+for (let cityI of citiesI) {
+    console.log(cityI);
+     cityI.addEventListener("click", function(i) {
+        
+    const idString = "content-" + cityI.innerHTML;
+    console.log(idString)
+     const contentElement = document.getElementById(idString)
+     for (let contentCity of contentsCity) {
+         console.log("Hello", {contentCity})
+         contentCity.classList.remove("visible");
+         
+     }
+     contentElement.classList.add("visible");
+        
+    for (let cityI of citiesI) {
+
+         cityI.classList.remove("boldAplhabet");
+         
+     }    
+        
+      cityI.classList.add("boldAplhabet");
+    console.log("you clicked region number " + contentElement);
+  })
+}
+
+// J
+
+const citiesJ = document.getElementsByClassName('cityJ');
+
+for (let cityJ of citiesJ) {
+    console.log(cityJ);
+     cityJ.addEventListener("click", function(i) {
+        
+    const idString = "content-" + cityJ.innerHTML;
+    console.log(idString)
+     const contentElement = document.getElementById(idString)
+     for (let contentCity of contentsCity) {
+         console.log("Hello", {contentCity})
+         contentCity.classList.remove("visible");
+         
+     }
+     contentElement.classList.add("visible");
+        
+    for (let cityJ of citiesJ) {
+
+         cityJ.classList.remove("boldAplhabet");
+         
+     }    
+        
+      cityJ.classList.add("boldAplhabet");
+    console.log("you clicked region number " + contentElement);
+  })
+}
+
+// K
+
+const citiesK = document.getElementsByClassName('cityK');
+
+for (let cityK of citiesK) {
+    console.log(cityK);
+     cityK.addEventListener("click", function(i) {
+        
+    const idString = "content-" + cityK.innerHTML;
+    console.log(idString)
+     const contentElement = document.getElementById(idString)
+     for (let contentCity of contentsCity) {
+         console.log("Hello", {contentCity})
+         contentCity.classList.remove("visible");
+         
+     }
+     contentElement.classList.add("visible");
+        
+    for (let cityK of citiesK) {
+
+         cityK.classList.remove("boldAplhabet");
+         
+     }    
+        
+      cityK.classList.add("boldAplhabet");
+    console.log("you clicked region number " + contentElement);
+  })
+}
+
+// M
+
+const citiesM = document.getElementsByClassName('cityM');
+
+for (let cityM of citiesM) {
+    console.log(cityM);
+     cityM.addEventListener("click", function(i) {
+        
+    const idString = "content-" + cityM.innerHTML;
+    console.log(idString)
+     const contentElement = document.getElementById(idString)
+     for (let contentCity of contentsCity) {
+         console.log("Hello", {contentCity})
+         contentCity.classList.remove("visible");
+         
+     }
+     contentElement.classList.add("visible");
+        
+    for (let cityM of citiesM) {
+
+         cityM.classList.remove("boldAplhabet");
+         
+     }    
+        
+      cityM.classList.add("boldAplhabet");
+    console.log("you clicked region number " + contentElement);
+  })
+}
+
+// N
+
+const citiesN = document.getElementsByClassName('cityN');
+
+for (let cityN of citiesN) {
+    console.log(cityN);
+     cityN.addEventListener("click", function(i) {
+        
+    const idString = "content-" + cityN.innerHTML;
+    console.log(idString)
+     const contentElement = document.getElementById(idString)
+     for (let contentCity of contentsCity) {
+         console.log("Hello", {contentCity})
+         contentCity.classList.remove("visible");
+         
+     }
+     contentElement.classList.add("visible");
+        
+    for (let cityN of citiesN) {
+
+         cityN.classList.remove("boldAplhabet");
+         
+     }    
+        
+      cityN.classList.add("boldAplhabet");
+    console.log("you clicked region number " + contentElement);
+  })
+}
+
+// P
+
+const citiesP = document.getElementsByClassName('cityP');
+
+for (let cityP of citiesP) {
+    console.log(cityP);
+     cityP.addEventListener("click", function(i) {
+        
+    const idString = "content-" + cityP.innerHTML;
+    console.log(idString)
+     const contentElement = document.getElementById(idString)
+     for (let contentCity of contentsCity) {
+         console.log("Hello", {contentCity})
+         contentCity.classList.remove("visible");
+         
+     }
+     contentElement.classList.add("visible");
+        
+    for (let cityP of citiesP) {
+
+         cityP.classList.remove("boldAplhabet");
+         
+     }    
+        
+      cityP.classList.add("boldAplhabet");
+    console.log("you clicked region number " + contentElement);
+  })
+}
+
+// R 
+
+const citiesR = document.getElementsByClassName('cityR');
+
+for (let cityR of citiesR) {
+    console.log(cityR);
+     cityR.addEventListener("click", function(i) {
+        
+    const idString = "content-" + cityR.innerHTML;
+    console.log(idString)
+     const contentElement = document.getElementById(idString)
+     for (let contentCity of contentsCity) {
+         console.log("Hello", {contentCity})
+         contentCity.classList.remove("visible");
+         
+     }
+     contentElement.classList.add("visible");
+        
+    for (let cityR of citiesR) {
+
+         cityR.classList.remove("boldAplhabet");
+         
+     }    
+        
+      cityR.classList.add("boldAplhabet");
+    console.log("you clicked region number " + contentElement);
+  })
+}
+
+// S
+
+const citiesS = document.getElementsByClassName('cityS');
+
+for (let cityS of citiesS) {
+    console.log(cityS);
+     cityS.addEventListener("click", function(i) {
+        
+    const idString = "content-" + cityS.innerHTML;
+    console.log(idString)
+     const contentElement = document.getElementById(idString)
+     for (let contentCity of contentsCity) {
+         console.log("Hello", {contentCity})
+         contentCity.classList.remove("visible");
+         
+     }
+     contentElement.classList.add("visible");
+        
+    for (let cityS of citiesS) {
+
+         cityS.classList.remove("boldAplhabet");
+         
+     }    
+        
+      cityS.classList.add("boldAplhabet");
+    console.log("you clicked region number " + contentElement);
+  })
+}
+
+// T
+
+const citiesT = document.getElementsByClassName('cityT');
+
+for (let cityT of citiesT) {
+    console.log(cityT);
+     cityT.addEventListener("click", function(i) {
+        
+    const idString = "content-" + cityT.innerHTML;
+    console.log(idString)
+     const contentElement = document.getElementById(idString)
+     for (let contentCity of contentsCity) {
+         console.log("Hello", {contentCity})
+         contentCity.classList.remove("visible");
+         
+     }
+     contentElement.classList.add("visible");
+        
+    for (let cityT of citiesT) {
+
+         cityT.classList.remove("boldAplhabet");
+         
+     }    
+        
+      cityT.classList.add("boldAplhabet");
+    console.log("you clicked region number " + contentElement);
+  })
+}
+
+// U
+
+const citiesU = document.getElementsByClassName('cityU');
+
+for (let cityU of citiesU) {
+    console.log(cityU);
+     cityU.addEventListener("click", function(i) {
+        
+    const idString = "content-" + cityU.innerHTML;
+    console.log(idString)
+     const contentElement = document.getElementById(idString)
+     for (let contentCity of contentsCity) {
+         console.log("Hello", {contentCity})
+         contentCity.classList.remove("visible");
+         
+     }
+     contentElement.classList.add("visible");
+        
+    for (let cityU of citiesU) {
+
+         cityU.classList.remove("boldAplhabet");
+         
+     }    
+        
+      cityU.classList.add("boldAplhabet");
+    console.log("you clicked region number " + contentElement);
+  })
+}
+
+// V
+const citiesV = document.getElementsByClassName('cityV');
+// const contentsCity = document.getElementsByClassName('cityContent');
+
+for (let cityV of citiesV) {
+    console.log(cityV);
+     cityV.addEventListener("click", function(i) {
+        
+    const idString = "content-" + cityV.innerHTML;
+    console.log(idString)
+     const contentElement = document.getElementById(idString)
+     for (let contentCity of contentsCity) {
+         console.log("Hello", {contentCity})
+         contentCity.classList.remove("visible");
+         
+     }
+     contentElement.classList.add("visible");
+        
+    for (let cityV of citiesV) {
+
+         cityV.classList.remove("boldAplhabet");
+         
+     }    
+        
+      cityV.classList.add("boldAplhabet");
+    console.log("you clicked region number " + contentElement);
+  })
+}
+
+// letters.forEach(letter => letter.addEventListener("click", function(i) {
+//     console.log("you clicked region number " + i);
+//   }))
+// const alphabet = alpha.map((x) => String.fromCharCode(x));
+// const alphabetDiv = document.querySelector(".letter")
+// console.log("Alpahbet class", {alphabet, alphabetDiv, letters})
+// const alphabetSpans = 
+// node.appendChild(textnode);
+// alphabetDiv.innerHTML = alphabet.forEach(letter =>  document.createElement("span").appendChild(document.createTextNode(letter)))
+// const node = document.createElement("span");
+// const textnode = document.createTextNode("Water");
+
+
+circle1.addEventListener("click", function() {
+    circle1.classList.toggle("selected");
+     tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  document.getElementById('Home').style.display = "block";
+    // if(circle2.classList.contains('selected')) {
+    // selectedContent.style.display = "block"
+    // alphabet.style.display = "none"
+    // } else {
+    // selectedContent.style.display = "none"
+    // }
+    // document.querySelector(".selected").backgroundImage = "linear-gradient(white, white), linear-gradient(62.64deg, #95EE96 10.23%, rgba(23, 192, 235, 0.35) 47.47%, #FFBF78 75.99%);"
+    circle2.classList.remove("selected")
+    circle3.classList.remove("selected")
+    circle4.classList.remove("selected")
+});
+
+circle2.addEventListener("click", function() {
+    circle2.classList.toggle("selected");
+       tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+    
+    document.getElementById('Home2').style.display = "block";
+    // if(circle2.classList.contains('selected')) {
+    // selectedContent.style.display = "none"
+    // alphabet.style.display = "block"
+    // } else {
+    // alphabet.style.display = "none"
+    // }
+    circle3.classList.remove("selected")
+    circle4.classList.remove("selected")
+    circle1.classList.remove("selected")
+});
+
+
+circle3.addEventListener("click", function() {
+    circle3.classList.toggle("selected");
+      tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  document.getElementById('Home3').style.display = "block";
+    circle2.classList.remove("selected")
+    circle4.classList.remove("selected")
+    circle1.classList.remove("selected")
+});
+
+circle4.addEventListener("click", function() {
+    circle4.classList.toggle("selected");
+          tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  document.getElementById('Home4').style.display = "block";
+    circle3.classList.remove("selected")
+    circle2.classList.remove("selected")
+    circle1.classList.remove("selected")
+});
+
+
+
+console.log(circle1.classList)
+
+     }
+    if(link.toString().includes("fr")) {
+        contact.remove()
+    }
+    // || link.toString().includes("es")
+    if(link) {
+        
+    let mansorycontainer = document.querySelector('.custom-containerNewsPods > .component-inner > .container-fluid > .component-main')
+    mansorycontainer.classList.add("masonry-container");
+    mansorycontainer.classList.remove("row")
+    let masonryfigure = mansorycontainer.querySelectorAll(':scope > .items-5')
+    // console.log(masonryfigure[1])
+    for(i=0; i<masonryfigure.length; i++) {
+        masonryfigure[i].classList.add('masonry-figure')
+    }
+    }
+    let customcontainer = document.querySelector('#site-header > .container');
+    customcontainer.classList.remove("container");
+    customcontainer.classList.add("custom-container");
+    let dropdown = document.querySelector('.language-selector');
+    let insides = dropdown.querySelector('.dropdown-menu');
+    let link1 = insides.querySelector('a:first-of-type')
+    let link2 = insides.querySelector('a:nth-of-type(2)')
+    let span1 = link1.querySelector('span')
+    let span2 = link2.querySelector('span')
+    
+    
+    if(link1.href.toString().includes("fr")) {
+        span1.textContent = "Français"
+    } else {
+        span1.textContent = "English"
+    }
+    
+    if(link2.href.toString().includes("es")) {
+        span2.textContent = "Español"
+       
+    } else {
+        span2.textContent = "Français"
+    }
+    
+    let flag1 = link1.querySelector('picture')
+    flag1.remove()
+    let flag2 = link2.querySelector('picture')
+    flag2.remove()
+}
+
+
+ let link = window.location.href
+
+
+if(link.toString().includes('about')) {
+    
+const readMoreBtn = document.querySelector(".read-more-btn");
+const readMoreBtnText = document.querySelector(".read-more-btn > p");
+const textMore = document.querySelector(".textMore");
+
+readMoreBtn.addEventListener("click", function() {
+  textMore.classList.toggle("show-more");
+  if (readMoreBtnText.innerText === "READ MORE") {
+    readMoreBtnText.innerText = "READ LESS";
+  } else {
+    readMoreBtnText.innerText = "READ MORE";
+  }
+  readMoreBtnText.style.marginTop = '-3px'
+  
+});
+
+const readMoreBtn2 = document.querySelector(".read-more-btn2");
+const readMoreBtnText2 = document.querySelector(".read-more-btn2 > p");
+const textMore2 = document.querySelector(".textMore2");
+
+readMoreBtn2.addEventListener("click", function() {
+  textMore2.classList.toggle("show-more2");
+  if (readMoreBtnText2.innerText === "READ MORE") {
+    readMoreBtnText2.innerText = "READ LESS";
+  } else {
+    readMoreBtnText2.innerText = "READ MORE";
+  }
+  readMoreBtnText2.style.marginTop = '-3px'
+  
+});
+
+const readMoreBtn3 = document.querySelector(".read-more-btn3");
+const readMoreBtnText3 = document.querySelector(".read-more-btn3 > p");
+const textMore3 = document.querySelector(".textMore3");
+
+readMoreBtn3.addEventListener("click", function() {
+  textMore3.classList.toggle("show-more3");
+  if (readMoreBtnText3.innerText === "READ MORE") {
+    readMoreBtnText3.innerText = "READ LESS";
+  } else {
+    readMoreBtnText3.innerText = "READ MORE";
+  }
+  readMoreBtnText3.style.marginTop = '-3px'
+  
+});
+
+
+const readMoreBtn4 = document.querySelector(".read-more-btn4");
+const readMoreBtnText4 = document.querySelector(".read-more-btn4 > p");
+const textMore4 = document.querySelector(".textMore4");
+
+
+readMoreBtn4.addEventListener("click", function() {
+  textMore4.classList.toggle("show-more4");
+  if (readMoreBtnText4.innerText === "READ MORE") {
+    readMoreBtnText4.innerText = "READ LESS";
+  } else {
+    readMoreBtnText4.innerText = "READ MORE";
+  }
+  readMoreBtnText4.style.marginTop = '-3px'
+  
+});
+}
+
+
+if(link.toString().includes("timeline")) {
+    const readMoreBtn01 = document.querySelector(".read-more-btn01");
+const readMoreBtnText01 = document.querySelector(".read-more-btn01 > p");
+const textMore01 = document.querySelector(".textMore01");
+
+
+readMoreBtn01.addEventListener("click", function() {
+  textMore01.classList.toggle("show-more01");
+  if (readMoreBtnText01.innerText === "READ MORE") {
+    readMoreBtnText01.innerText = "READ LESS";
+  } else {
+    readMoreBtnText01.innerText = "READ MORE";
+  }
+  readMoreBtnText01.style.marginTop = '-3px'
+  
+});
+
+ const readMoreBtn02 = document.querySelector(".read-more-btn02");
+const readMoreBtnText02 = document.querySelector(".read-more-btn02 > p");
+
+
+readMoreBtn02.addEventListener("click", function() {
+  textMore01.classList.toggle("show-more01");
+  if (readMoreBtnText01.innerText === "READ MORE") {
+    readMoreBtnText01.innerText = "READ LESS";
+  } else {
+    readMoreBtnText01.innerText = "READ MORE";
+  }
+  readMoreBtnText01.style.marginTop = '-3px'
+  
+});
+}
+
+if(link.toString().includes("works")) {
+   const readMoreBtnWorks1 = document.querySelector(".read-more-btnWorks1");
+const readMoreBtnTextWorks1 = document.querySelector(".read-more-btnWorks1 > p");
+const textMoreWorks1 = document.querySelector(".textMoreWorks1");
+
+
+readMoreBtnWorks1.addEventListener("click", function() {
+  textMoreWorks1.classList.toggle("show-moreWorks1");
+  if (readMoreBtnTextWorks1.innerText === "READ MORE") {
+    readMoreBtnTextWorks1.innerText = "READ LESS";
+  } else {
+    readMoreBtnTextWorks1.innerText = "READ MORE";
+  }
+  readMoreBtnTextWorks1.style.marginTop = '-3px'
+  
+});
+
+const readMoreBtnWorks2 = document.querySelector(".read-more-btnWorks2");
+const readMoreBtnTextWorks2 = document.querySelector(".read-more-btnWorks2 > p");
+const textMoreWorks2 = document.querySelector(".textMoreWorks2");
+
+
+readMoreBtnWorks2.addEventListener("click", function() {
+  textMoreWorks2.classList.toggle("show-moreWorks2");
+  if (readMoreBtnTextWorks2.innerText === "READ MORE") {
+    readMoreBtnTextWorks2.innerText = "READ LESS";
+  } else {
+    readMoreBtnTextWorks2.innerText = "READ MORE";
+  }
+  readMoreBtnTextWorks2.style.marginTop = '-3px'
+  
+});
+
+const readMoreBtnWorks3 = document.querySelector(".read-more-btnWorks3");
+const readMoreBtnTextWorks3 = document.querySelector(".read-more-btnWorks3 > p");
+const textMoreWorks3 = document.querySelector(".textMoreWorks3");
+
+
+readMoreBtnWorks3.addEventListener("click", function() {
+  textMoreWorks3.classList.toggle("show-moreWorks3");
+  if (readMoreBtnTextWorks3.innerText === "READ MORE") {
+    readMoreBtnTextWorks3.innerText = "READ LESS";
+  } else {
+    readMoreBtnTextWorks3.innerText = "READ MORE";
+  }
+  readMoreBtnTextWorks3.style.marginTop = '-3px'
+  
+});
+
+}
+
+  if(link.toString().includes("resources")) {
+        let testSuper2 = document.getElementsByClassName('i4ewOd-pzNkMb-haAclf')
+        testSuper2[0].style.display = 'none'
+
+    }
+    
+

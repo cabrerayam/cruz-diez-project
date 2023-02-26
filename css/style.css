@@ -1,24 +1,31 @@
 /* GOOGLE FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 
-/* ESTILOS AL BODY */
-body{
-    font-family: 'Ubuntu', sans-serif;
-    color: #ffffff;
-}
-
+/* HEADER */
 .logo{
     width: 150px;
 }
 
-/* HEADER */
-.header{
-    display: inline;
-    align-items: center;
-    justify-content: space-around;
-    background-color: #ffffff;
-    height: 150px;
-    position: sticky;
+.colorFondo{
+    background-color: #f5f3f4 ;
+}
+
+/* CARROUSEL */
+.imagenesCarousel{
+    height: 400px;
+    width: 100%;
+    object-fit: center ;
+}
+
+.textoCarousel{
+    color: #ffffff;
+}
+
+/* CARD */
+.imagenCard{
+    height: 250px;
+    width: 100%;
+    object-fit: center ;
 }
 
 .titulo{
@@ -63,7 +70,7 @@ body{
 /* FOOTER */
 
 footer {
-    height: 100px;
+    height: 70px;
     width: 100%;
     background-color: #ffffff;
     border-top: #444444 2px solid;
@@ -71,4 +78,5 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 5px;
 }
