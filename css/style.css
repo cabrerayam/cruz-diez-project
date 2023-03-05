@@ -1,10 +1,19 @@
 /* GOOGLE FONTS */
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 /* HEADER */
 .logo{
     width: 150px;
     height: 75px;
+}
+.nav-item{
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+     
 }
 
 /*BACKGROUND COLOR*/
@@ -22,6 +31,8 @@
 
 .textoCarousel{
     color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+  
 }
 
 
@@ -36,6 +47,7 @@
     color: black;
     text-decoration: none;
     font-size: 2.5rem;
+    font-family: 'Poppins', sans-serif;
 }
 
 .bio{
@@ -62,6 +74,55 @@
     background-color: #3fbbc0;
 }
 
+
+/*LINEA DE TIEMPO*/
+
+
+.flexcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Verdana;
+  }
+  .flexitem {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center
+  }
+  .flexitem__date {
+    order: 2;
+    text-align: left;
+    color: red;
+    text-shadow: 2px 2px 5px black;
+    font-size: 28px;
+    background: linear-gradient(
+      to right,
+      white 46%,
+      orange 46%,
+      orange 52%,
+      gray 52%,
+      white 56%
+    );
+    flex-basis: 100px;
+    display: flex;
+  }
+
+  .flexitem__desc {
+    order: 3;
+    width: 80%;
+    padding-left: 10px;
+  }
+  
+  
+  @media (min-width: 640px){
+    .flexitem__desc,
+    .flexitem__hidden {
+     width: 40%
+    }
+  }
+
 /* FORMULARIO */
 .formulario{
       color: black;
@@ -70,6 +131,9 @@
       background-color: #EFD40A;
       border: 2px solid #EFD40A;
 }
+
+
+
 
 /* FOOTER */
 
