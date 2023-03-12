@@ -1,0 +1,30 @@
+
+/*LINEA DE TIEMPO */
+.flexcontainer {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 800px;
+	margin: 0 auto;
+	font-family: $font-family_2;
+}
+.flexitem {
+	width: 100%;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+.flexitem__date {
+	order: 2;
+	text-align: left;
+	color: $color_3;
+	text-shadow: 2px 2px 5px black;
+	font-size: 28px;
+	background: linear-gradient( to right, white 46%, orange 46%, orange 52%, gray 52%, white 56% );
+	flex-basis: 100px;
+	display: flex;
+}
+.flexitem__desc {
+	order: 3;
+	width: 80%;
+	padding-left: 10px;
+}

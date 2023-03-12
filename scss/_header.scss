@@ -1,0 +1,30 @@
+/*HEADER*/
+
+@mixin parrafos {
+    font-family: $font-family_1;
+}
+
+.logo {
+    width: 150px;
+    height: 75px;
+}
+
+.nav-item {
+    font-family: $font-family_1;
+
+    &:hover{
+        color: $color_3;
+    }
+}
+
+p {
+    @include parrafos;
+
+    &:hover{
+        color: $color_2;
+    }
+}
+
+.colorFondo {
+    background-color: $background-color_1;
+}

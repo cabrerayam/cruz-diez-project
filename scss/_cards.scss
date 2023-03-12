@@ -1,0 +1,13 @@
+/*CARDS*/
+.imagenCard {
+    height: 250px;
+    width: 100%;
+    object-fit: center;
+}
+
+.titulo {
+    color: $color_2;
+    text-decoration: none;
+    font-size: 2.5rem;
+    font-family: $font-family_1;
+}

@@ -1,0 +1,39 @@
+/*FOOTER*/
+
+@mixin anclas {
+    font-family: $font-family_1;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+    transition: all 0.3s ease;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: #444444 2px solid;
+    background-color: $background-color_1;
+    padding: 1rem;
+
+    h3 {
+        font-size: 2rem;
+        color: $color_2;
+    }
+
+    P {
+        font-size: 1.5rem;
+        @include parrafos;
+    }
+
+    li{
+        list-style: none;
+        display: inline-block;
+        margin: 0.5rem;
+
+        a {
+            @include anclas;
+        }
+    }
+
+}
