@@ -4,27 +4,23 @@
     font-family: $font-family_1;
 }
 
-.logo {
-    width: 150px;
-    height: 75px;
-}
+header {
 
-.nav-item {
-    font-family: $font-family_1;
-
-    &:hover{
-        color: $color_3;
-    }
-}
-
-p {
+    height: 20vh;
     @include parrafos;
 
-    &:hover{
-        color: $color_2;
+    &:hover {
+        color: $color_3;
     }
-}
 
-.colorFondo {
-    background-color: $background-color_1;
+    .logo {
+        width: 180px;
+        height: 90px;
+    }
+
+    .nav-item {
+        font-family: $font-family_1;
+        font-size: 18px;
+    }
+    
 }

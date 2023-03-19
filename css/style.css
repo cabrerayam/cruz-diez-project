@@ -9,27 +9,20 @@ html body {
 }
 
 /*HEADER*/
-.logo {
-  width: 150px;
-  height: 75px;
-}
-
-.nav-item {
+header {
+  height: 20vh;
   font-family: "Poppins", sans-serif;
 }
-.nav-item:hover {
+header:hover {
   color: red;
 }
-
-p {
+header .logo {
+  width: 180px;
+  height: 90px;
+}
+header .nav-item {
   font-family: "Poppins", sans-serif;
-}
-p:hover {
-  color: grey;
-}
-
-.colorFondo {
-  background-color: #f5f3f4;
+  font-size: 18px;
 }
 
 /*HOME*/
@@ -61,7 +54,7 @@ p:hover {
 }
 
 .titulo {
-  color: grey;
+  color: #0d1b2a;
   text-decoration: none;
   font-size: 2.5rem;
   font-family: "Poppins", sans-serif;
@@ -140,7 +133,7 @@ footer {
 }
 footer h3 {
   font-size: 2rem;
-  color: grey;
+  color: #0d1b2a;
 }
 footer P {
   font-size: 1.5rem;
