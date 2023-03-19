@@ -5,13 +5,14 @@
 }
 
 .header {
-    height: 20vh;
-    border-bottom:2px solid black; 
+    height: 15vh;
+    background-color: $background-color_1;
+    border-bottom:1px solid $color_2 ;
     @include parrafos;
 
     .logo {
-        width: 180px;
-        height: 90px;
+        width: 120px;
+        height: 60px;
     }
 
     .nav-item {
