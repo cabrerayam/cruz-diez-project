@@ -4,14 +4,10 @@
     font-family: $font-family_1;
 }
 
-header {
-
+.header {
     height: 20vh;
+    border-bottom:2px solid black; 
     @include parrafos;
-
-    &:hover {
-        color: $color_3;
-    }
 
     .logo {
         width: 180px;
@@ -21,6 +17,11 @@ header {
     .nav-item {
         font-family: $font-family_1;
         font-size: 18px;
+        text-decoration: none;
     }
-    
+        
+    .nav-item:hover {
+        text-decoration: underline;
+    }
+
 }
