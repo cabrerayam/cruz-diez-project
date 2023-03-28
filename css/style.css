@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"); /*ESTILOS GENERALES*/
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,700");
 html {
   font-size: 100%;
 }
@@ -12,6 +13,11 @@ html h1 {
   margin-bottom: 2%;
   text-align: center;
   font-weight: bold;
+}
+html h2 {
+  margin-top: 2%;
+  margin-bottom: 1%;
+  text-align: center;
 }
 
 /*HEADER*/
@@ -104,6 +110,123 @@ html h1 {
   object-fit: cover;
 }
 
+/* Font */
+/* Design */
+* {
+  box-sizing: border-box;
+}
+*::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #ecf9ff;
+}
+
+body {
+  color: #272727;
+  font-family: "Quicksand", serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+  padding: 1rem;
+}
+
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.btn {
+  color: #ffffff;
+  padding: 0.8rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+}
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+  }
+}
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 33.3333%;
+  }
+}
+.card {
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card_content {
+  padding: 1rem;
+  background: linear-gradient(to bottom left, #EF8D9C 40%, #FFC39E 100%);
+}
+
+.card_title {
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.card_text {
+  color: #ffffff;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+  font-weight: 400;
+}
+
+.made_by {
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 35px;
+  text-align: center;
+}
+
 /*LINEA DE TIEMPO */
 .flexcontainer {
   display: flex;
@@ -158,12 +281,141 @@ section img:hover {
 }
 
 /*FORMULARIO*/
-.formulario {
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+*::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin-top: 2%;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  background: #02527d;
+}
+
+img {
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+a {
   color: black;
-  font-size: 20px;
-  letter-spacing: 2px;
-  background-color: #EFD40A;
-  border: 2px solid #EFD40A;
+  text-decoration: none;
+}
+
+.container {
+  margin-top: 5%;
+  margin-bottom: 10%;
+  width: 900px;
+  position: relative;
+  z-index: 5;
+  display: flex;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.6);
+}
+
+.callaction {
+  margin-top: 3%;
+  width: 70%;
+  text-align: center;
+  color: #ffffff;
+}
+.callaction div {
+  background: #ffffff;
+  text-align: center;
+}
+
+.info {
+  background: #ffffff;
+  width: 60%;
+  padding: 3rem;
+  position: relative;
+}
+.info p.lema {
+  padding-bottom: 3rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  min-height: 300px;
+  justify-content: space-around;
+  padding-bottom: 6rem;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid #0d1b2a;
+  padding: 5px 10px;
+  color: grey;
+  outline: 0;
+  transition: border-color 0.2s ease-in-out;
+}
+
+textarea {
+  border: none;
+  border-bottom: 1px solid #0d1b2a;
+  padding: 5px 10px;
+  color: grey;
+  outline: 0;
+  transition: border-color 0.2s ease-in-out;
+  resize: none;
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-size: 1.6rem;
+  letter-spacing: 0.1rem;
+  color: #0d1b2a;
+}
+
+input:focus,
+textarea:focus {
+  border-color: grey;
+}
+
+input[type=submit] {
+  background: #02527d;
+  border-radius: 0.6rem;
+  padding: 10px 35px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  width: 35%;
+  color: #ffffff;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  opacity: 0.9;
+}
+
+.social {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  font-size: 1.2rem;
+  width: 90%;
+  justify-content: space-around;
+  padding-bottom: 1rem;
+}
+.social i {
+  font-size: 2rem;
 }
 
 /*FOOTER*/
