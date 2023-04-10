@@ -5,25 +5,28 @@
 }
 
 .header {
-    height: 15vh;
+    height: 18vh;
     border-top: 1px solid $color_2 ;
     background-color: $background-color_1;
     border-bottom: 1px solid $color_2 ;
     @include parrafos;
 
     .logo {
-        width: 120px;
-        height: 60px;
+        display: flex;
+        width: 160px;
+        height: 80px;
     }
 
     .nav-item {
         font-family: $font-family_1;
-        font-size: 18px;
+        font-size: 21px;
         text-decoration: none;
+        color: $color_2;
+        font-weight: bold;        
     }
 
     .nav-item:hover {
-        text-decoration: underline;
+        text-decoration: underline $color_3;
     }
 
 }

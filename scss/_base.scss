@@ -4,22 +4,49 @@ html {
     font-size: 100%;
 
     body {
-        background-color: $color_1;
+        background-color: $background-color_3;
         font-family: $font-family_1;
-        /*overflow-y: hidden;*/
+        /*overflow-x:hidden;*/
+        /* overflow-y: scroll;*/
+        overflow: auto;
+        height: 100%;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+
     }
 
-    h1{
+    h1 {
         margin-top: 2%;
         margin-bottom: 2%;
         text-align: center;
         font-weight: bold;
     }
 
-    h2{
+    h2 {
         margin-top: 2%;
         margin-bottom: 1%;
         text-align: center;
+        color: $color_1;
+    }
+
+    .titulo-nota {
+        color: $color_4;
+    }
+
+    .card-title-home {
+        color: $color_1;
+    }
+
+    .card-text-home {
+        color: $color_1;
+        font-size: 14px;
+
+    }
+    .card-text-time {
+        color: $color_2;
+        font-size: 14px;
+
     }
 
 
