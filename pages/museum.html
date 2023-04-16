@@ -45,14 +45,31 @@
         </nav>
     </header>
 
-    <section>
-        <img src="../img/Museo/Camara-de-Cromosaturacion-museo.jpg" alt="img-museo1">
-        <img src="../img/Museo/museo 2.jpeg" alt="img-museo3">
-        <img src="../img/Museo/Carlos_Cruz-Díez_Museum.jpg" alt="img-museo2">
-        <img src="../img/Museo/museo 5.webp" alt="img-museo4">
-        <img src="../img/Museo/museo-3.jpeg" alt="img-museo5">
-        <img src="../img/Museo/museo-4.jpg" alt="img-museo6">
-    </section>
+ <!-- CARROUSEL -->
+ <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="../img/Museo/Carlos_Cruz-Díez_Museum.jpg" class="d-block w-100" alt="museo">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="../img/Museo/museo-4.jpg" class="d-block w-100" alt="salon">
+      </div>
+      <div class="carousel-item">
+        <img src="../img/Museo/Camara-de-Cromosaturacion-museo.jpg" class="d-block w-100" alt="paneles">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
+  </div>
+
     <h1 class=".titulo-nota"> Museo de la Estampa y del Diseño Carlos Cruz Diez </h1>
     <p class = "card-text-home"> El Museo de la Estampa y del Diseño Carlos Cruz Diez o simplemente Cruz Diez, es un museo de Caracas, Venezuela
         ubicado en el Paseo Vargas de la avenida Bolívar en el centro de esa ciudad. Lleva su nombre en honor al artista
@@ -71,7 +88,40 @@
     <p class = "card-text-home">En la planta baja, se presentan exposiciones temporales, que se renuevan periódicamente. En el piso superior,
         está la sala de exposición permanente "Atrapando el Color"</p>
 
-    <p class = "card-text-home">A continuación les presentamos algunas de las obras más interesantes:</p>
+    <h2> Galería del museo </h2>
+
+    <div class="row row-cols-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="../img/Museo/Cruz-Diez-galeria1.jpg" class="card-img-top" alt="galeria-1">
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="../img/Museo/Cruz-Diez-galeria2.jpg" class="card-img-top"alt="galeria-2">
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="../img/Museo/Cruz-Diez-galeria3.jpg" class="card-img-top" alt="galeria-3">
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="../img/Museo/Cruz-Diez-galeria4.jpg" class="card-img-top" alt="galeria-4">
+            </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="../img/Museo/Cruz-Diez-galeria5.jpg" class="card-img-top" alt="galeria-5">
+            </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="../img/Museo/Cruz-Diez-galeria6.jpg" class="card-img-top" alt="galeria-6">
+          </div>
+        </div>
+      </div>
 
 
     <!-- FOOTER -->
