@@ -3,7 +3,7 @@ html {
   font-size: 100%;
 }
 html body {
-  background-color: #d90429;
+  background-color: #001427;
   font-family: "Poppins", sans-serif;
   /*overflow-x:hidden;*/
   /* overflow-y: scroll;*/
@@ -24,6 +24,7 @@ html h2 {
   margin-bottom: 1%;
   text-align: center;
   color: #ffffff;
+  font-weight: bold;
 }
 html .titulo-nota {
   color: black;
@@ -34,6 +35,8 @@ html .card-title-home {
 html .card-text-home {
   color: #ffffff;
   font-size: 14px;
+  margin-left: 10px ;
+  margin-right: 10px ;
 }
 html .card-text-time {
   color: #0d1b2a;
