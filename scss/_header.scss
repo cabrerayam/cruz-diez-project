@@ -9,13 +9,9 @@
     border-top: 1px solid $color_2 ;
     background-color: $background-color_1;
     border-bottom: 1px solid $color_2 ;
+    position: sticky;
+    display: inline;
     @include parrafos;
-
-    .logo {
-        display: flex;
-        width: 160px;
-        height: 80px;
-    }
 
     .nav-item {
         font-family: $font-family_1;
